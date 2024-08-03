@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+
+    <form action="" method="">
+        
+        <div>
+            <label for="nameInput">Name :</label>
+            <input type="text" name="nameInput" value="abcd" minlength="3" maxlength="5">
+        </div>
+        <div>
+            <label for="passwordInput">Password : </label>
+            <input type="password" name="passwordInput" minlength="6" maxlength="6">
+        </div>
+        <div>
+            <label for="checkBoxInput">Agree : </label>
+            <input type="checkbox" name="checkBoxInput" checked>
+        </div>
+        <div>
+            <label for="radioInput">Gender : </label>
+            <input type="radio" name="radioInput"> Male
+            <input type="radio" name="radioInput"> Female
+            <input type="radio" name="radioInput"> Other
+        </div>
+        <div>
+            <label for="selectInput">Fruits : </label>
+            <select name="selectInput" multiple>
+                <option value="1">Mango</option>
+                <option value="2">Banana</option>
+                <option value="3">Orange</option>
+            </select>
+
+        </div>
+        <div>
+            <label for="textAreaInput">Comments : </label>
+            <textarea name="textAreaInput" cols="50" rows="5" placeholder="enter your comment here"></textarea>
+        </div>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
